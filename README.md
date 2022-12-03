@@ -1,3 +1,7 @@
+# TA, criei umas rotas no insomnia para facilizar seu teste :)
+
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=LAB-CRUD-express-mongoose&uri=https%3A%2F%2Fgithub.com%2FArash-kaffashi%2FLAB-CRUD-express-mongoose%2Fblob%2Fmaster%2FInsomnia_2022-12-03.json)
+
 # CRUD app com populate (v6)
 
 ## Introdução
