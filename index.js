@@ -2,6 +2,7 @@ import express from "express";
 import * as dotenv from "dotenv";
 import connect from "./config/db.config.js";
 import albumsRoutes from "./routes/album.router.js";
+import purchaseRoutes from "./routes/purchase.router.js";
 
 const app = express();
 
@@ -10,6 +11,7 @@ connect();
 app.use(express.json());
 
 app.use("/", albumsRoutes);
+app.use("/", purchaseRoutes);
 
 app.listen(process.env.PORT, () => {
   console.log(`Server up and running on port: ${process.env.PORT}!`);
